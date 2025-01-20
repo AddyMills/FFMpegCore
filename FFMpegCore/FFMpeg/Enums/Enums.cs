@@ -29,6 +29,7 @@
         public static Codec Eac3 => FFMpeg.GetCodec("eac3");
         public static Codec LibMp3Lame => FFMpeg.GetCodec("libmp3lame");
         public static Codec Copy => new Codec("copy", CodecType.Audio);
+        public static Codec PcmS16le => FFMpeg.GetCodec("pcm_s16le");
 
     }
 
